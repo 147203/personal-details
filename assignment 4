@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string fName,lName,fullName,favMeal,favMovie;
+    
+    cout<<"Enter first name:"<<endl;
+    cin>>fName;
+    
+    cout<<"Enter last name:"<<endl;
+    cin>>lName;
+    
+    cout<<"Enter favourite meal:"<<endl;
+    cin>>favMeal;
+    
+    cout<<"Enter favourite movie:"<<endl;
+    cin>>favMovie;
+    
+    cout<<"Full Name: "<<fName<<" "<<lName<<" "<<endl;
+    cout<<"Favourite Meal: "<<favMeal<<" "<<endl;
+    cout<<"Favourite Movie: "<<favMovie<<" "<<endl;
+    return 0;
+}
